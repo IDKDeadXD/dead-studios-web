@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
 import ProjectCard from '../components/projectCard';
-import './projects.css'; // Import the CSS file
+import './projects.module.css'; // Import the CSS file
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
